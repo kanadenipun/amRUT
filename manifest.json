@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "amrut",
+  "description": "generate a chilean rut and copy to clipboard",
+  "version": "1",
+  "author": "Nipun Kanade",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "favicon.png",
+    "default_title": "Click to generate a new rut and copy to clipboard"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "popup.js"
+    ],
+    "persistent": false
+  }
+}
+
